@@ -9,6 +9,7 @@ def decorador(func):
         return result
     return funcion
 
+# Clase matrix para hacer las operaciones
 class Matrix:
     def __init__(self, data):
         self.data = data
@@ -41,10 +42,10 @@ matrix_gen = generate_random_matrix(2, 2)
 matrix_a = next(matrix_gen)
 matrix_b = next(matrix_gen)
 
-print("Matriz A:")
+print("Matrix A:")
 print(matrix_a)
 
-print("Matriz B:")
+print("Matrix B:")
 print(matrix_b)
 
 # Sumar, multiplicar y sacar la determinante de matrices
